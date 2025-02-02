@@ -52,8 +52,6 @@ class LinearRegression:
 file = r'F:\Python\ML\Linear Regression\placement.csv'
 df = pd.read_csv(file)
 
-# print(df.head())
-
 
 X = df.iloc[:,0].values
 y = df.iloc[:,1].values
